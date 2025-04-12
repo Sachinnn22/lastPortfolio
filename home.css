@@ -36,7 +36,7 @@
     }
 
     .home h1{
-        font-size: 30px;
+        font-size: 34px;
     }
 
     .home p {
@@ -50,12 +50,12 @@
         background-image: url("phone-background.png");
     }
     .home {
-        margin-top: 80%;
+        margin-top: 85%;
         font-size: 17px;
     }
 
     .home h1 {
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .home p {
@@ -70,39 +70,34 @@
     }
 
     .home {
-        margin-top: 70%;
+        margin-top: 80%;
         font-size: 18px;
     }
 
     .home h1 {
-        font-size: 34px;
+        font-size: 46px;
     }
 
     .home p {
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
 /*@media all and (max-width: 768px) {*/
-/*    #header {*/
-/*        background-image: url("tablet-background.png"); !* Optional: use a higher-res image for tablets *!*/
-/*        background-size: cover;*/
-/*        background-position: center;*/
+/*    #header{*/
 /*    }*/
 
 /*    .home {*/
 /*        margin-top: 50%;*/
-/*        font-size: 20px;*/
-/*        padding: 0 20px; !* Add some horizontal padding *!*/
+/*        font-size: 28px;*/
 /*    }*/
 
 /*    .home h1 {*/
-/*        font-size: 40px;*/
+/*        font-size: 44px;*/
 /*    }*/
 
 /*    .home p {*/
-/*        font-size: 22px;*/
-/*        line-height: 1.5;*/
+/*        font-size: 30px;*/
 /*    }*/
 /*}*/
 
