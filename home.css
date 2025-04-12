@@ -17,6 +17,7 @@
 }
 
 .home p{
+    font-family: cursive;
     font-size:40px ;
 }
 
@@ -44,6 +45,10 @@
 }
 
 @media all and (max-width: 375px) {
+
+    #header{
+        background-image: url("phone-background.png");
+    }
     .home {
         margin-top: 80%;
         font-size: 17px;
@@ -60,6 +65,10 @@
 
 
 @media all and (max-width: 425px) {
+    #header{
+        background-image: url("phone-background.png");
+    }
+
     .home {
         margin-top: 70%;
         font-size: 18px;
@@ -73,3 +82,27 @@
         font-size: 20px;
     }
 }
+
+/*@media all and (max-width: 768px) {*/
+/*    #header {*/
+/*        background-image: url("tablet-background.png"); !* Optional: use a higher-res image for tablets *!*/
+/*        background-size: cover;*/
+/*        background-position: center;*/
+/*    }*/
+
+/*    .home {*/
+/*        margin-top: 50%;*/
+/*        font-size: 20px;*/
+/*        padding: 0 20px; !* Add some horizontal padding *!*/
+/*    }*/
+
+/*    .home h1 {*/
+/*        font-size: 40px;*/
+/*    }*/
+
+/*    .home p {*/
+/*        font-size: 22px;*/
+/*        line-height: 1.5;*/
+/*    }*/
+/*}*/
+
