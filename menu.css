@@ -10,6 +10,7 @@ nav{
 }
 
 .nav-logo{
+    cursor: pointer;
     width: 140px;
 }
 
