@@ -5,3 +5,13 @@
     background-size:cover ;
     background-position: center;
 }
+
+.home{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.home h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
