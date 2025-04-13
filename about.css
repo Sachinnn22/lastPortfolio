@@ -103,3 +103,37 @@
 .slide-show{
     animation: slide 12s infinite ease-in-out;
 }
+
+@keyframes progress-fill {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: var(--progress-width);
+    }
+}
+
+.progress-bar {
+    animation: progress-fill 2s ease-out forwards;
+    --progress-width: 0%;
+}
+
+.progress-bar:nth-child(1) {
+    --progress-width: 90%;
+}
+
+.progress-bar:nth-child(2) {
+    --progress-width: 80%;
+}
+
+.progress-bar:nth-child(3) {
+    --progress-width: 70%;
+}
+
+.progress-bar:nth-child(4) {
+    --progress-width: 60%;
+}
+
+.progress-bar:nth-child(5) {
+    --progress-width: 50%;
+}
