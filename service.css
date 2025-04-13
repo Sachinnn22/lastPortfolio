@@ -13,7 +13,8 @@
 }
 
 .head>h1{
-    font-size: 45px;
+    font-size: 48px;
+    margin-bottom: -43px;
 }
 
 .head>p{
@@ -34,7 +35,7 @@
     height: 300px;
     padding: 20px;
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     color: black;
     box-sizing: border-box;
