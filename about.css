@@ -135,5 +135,5 @@
 }
 
 .progress-bar:nth-child(5) {
-    --progress-width: 50%;
+    --progress-width: 100%;
 }
