@@ -1,9 +1,10 @@
-.service{
+.service {
     background-color: #262626;
     color: white;
+    padding: 60px 20px;
 }
 
-.head{
+.head {
     display: grid;
     place-items: center;
     height: 200px;
@@ -11,11 +12,30 @@
     margin-bottom: 40px;
 }
 
-.all-card{
+.head>h1{
+    font-size: 45px;
+}
+
+.head>p{
+    margin-bottom: 20px;
+}
+
+.all-card {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    color: black;
+    box-sizing: border-box;
 }
