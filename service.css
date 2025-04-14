@@ -1,42 +1,78 @@
 .service {
-    background-color: #262626;
-    color: white;
+    background: #262626;
+    color: #fff;
     padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
 .head {
-    display: grid;
-    place-items: center;
-    height: 200px;
     text-align: center;
     margin-bottom: 40px;
 }
 
-.head>h1{
+.head h1 {
+    font-weight: bolder;
     font-size: 48px;
-    margin-bottom: -43px;
+    margin-bottom: 10px;
 }
 
-.head>p{
-    margin-bottom: 20px;
+.head p {
+    font-size: 18px;
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto 30px;
 }
 
 .all-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .card {
-    background-color: white;
+    background: #2b2a2a;
+    color: #e1e1e1;
     height: 300px;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 12px;
     text-align: left;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    color: black;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-12px);
+    background-color: #ff004f;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #f1c40f;
+    transition: color 0.3s ease;
+}
+
+.card p {
+    font-size: 16px;
+    color: #bdc3c7;
+    margin-top: 4px;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.card:hover h4 {
+    color: #f1c40f;
+}
+
+.card:hover p {
+    color: #f0f0f0;
 }
