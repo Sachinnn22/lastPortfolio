@@ -48,6 +48,7 @@
 }
 
 .card:hover {
+    transition: 1s;
     cursor: pointer;
     transform: translateY(-12px);
     background-color: #ff004f;
@@ -75,4 +76,9 @@
 
 .card:hover p {
     color: #f0f0f0;
+}
+
+.sda{
+    color: #ff004f;
+    font-family: cursive;
 }
