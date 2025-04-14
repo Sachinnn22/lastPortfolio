@@ -97,3 +97,26 @@
         font-size: 11px;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 35px 25px 20px;
+    }
+
+    .footer h2 {
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 14.5px;
+    }
+
+    .social-icons a {
+        font-size: 19px;
+        margin: 0 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
