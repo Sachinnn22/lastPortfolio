@@ -5,7 +5,6 @@
     font-family: 'Arial', sans-serif;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 .contact-container {
@@ -91,6 +90,43 @@ button:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .contact {
+        padding: 50px 20px;
+    }
+
+    .contact-container {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    input, textarea {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px 22px;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+}
+
+
 @media (max-width: 425px) {
     .contact {
         padding: 40px 15px;
@@ -152,4 +188,5 @@ button:hover {
         padding: 10px 18px;
     }
 }
+
 
