@@ -1,0 +1,28 @@
+.footer {
+    background: linear-gradient(135deg, #3a3a3a, #2e2e2e);
+    color: #f0f0f0;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.footer-content h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffd700;
+}
+
+.footer-content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-style: italic;
+    color: #cccccc;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #999999;
+    margin: 0;
+}
