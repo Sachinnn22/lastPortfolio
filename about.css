@@ -149,6 +149,40 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 20px;
+    }
+
+    .about-img {
+        height: 30vh;
+    }
+
+    .about-text,
+    .about-progress {
+        padding: 10px 5px;
+    }
+
+    .about-text h1,
+    .skill-title {
+        font-size: 1.3em;
+    }
+
+    .about-text p {
+        font-size: 0.95em;
+    }
+
+    .about-progress p {
+        font-size: 0.95em;
+    }
+
+    .about-divider {
+        display: none;
+    }
+}
+
 @media (max-width: 425px) {
     .about-content {
         flex-direction: column;
