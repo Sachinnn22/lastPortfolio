@@ -84,9 +84,15 @@
         width: 70%;
     }
 }
-@keyframes progress-fill-20 {
+@keyframes progress-fill-50 {
     to {
-        width: 20%;
+        width: 50%;
+    }
+}
+
+@keyframes progress-fill-60 {
+    to {
+        width: 50%;
     }
 }
 
@@ -101,10 +107,10 @@
     animation: progress-fill-70 2s ease-out forwards;
 }
 .p4 {
-    animation: progress-fill-20 2s ease-out forwards;
+    animation: progress-fill-60 2s ease-out forwards;
 }
 .p5 {
-    animation: progress-fill-20 2s ease-out forwards;
+    animation: progress-fill-50 2s ease-out forwards;
 }
 
 @keyframes slide {
