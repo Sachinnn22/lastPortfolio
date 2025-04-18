@@ -27,7 +27,32 @@
     width: 300px;
     height: 300px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: cardAppearance 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes cardAppearance {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.p-card:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+.p-card:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.p-card:nth-child(3) {
+    animation-delay: 1s;
 }
 
 .p-card img {
@@ -52,3 +77,4 @@
     color: #bbb;
     font-size: 0.95em;
 }
+
