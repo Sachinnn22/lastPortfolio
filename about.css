@@ -9,7 +9,7 @@
     background-image: url("slide4.jpeg.jpg");
     background-position: center;
     background-size: cover;
-
+    animation: slide ease-in-out 12s;
 }
 
 .about-content {
@@ -54,26 +54,57 @@
     font-weight: bold;
 }
 
-.about-progress progress {
+.about-progress-container {
     width: 100%;
+    background: #444;
+    border-radius: 10px;
+    overflow: hidden;
     height: 18px;
     margin-bottom: 10px;
-    appearance: none;
 }
 
-.about-progress progress::-webkit-progress-bar {
-    background-color: #ff004f;
-    border-radius: 10px;
+.progress-bar {
+    height: 100%;
+    background: #ff004f;
+    width: 0;
 }
 
-.about-progress progress::-webkit-progress-value {
-    background-color: #ff004f;
-    border-radius: 10px;
+@keyframes progress-fill-90 {
+    to {
+        width: 90%;
+    }
+}
+@keyframes progress-fill-80 {
+    to {
+        width: 80%;
+    }
+}
+@keyframes progress-fill-70 {
+    to {
+        width: 70%;
+    }
+}
+@keyframes progress-fill-20 {
+    to {
+        width: 20%;
+    }
 }
 
-.about-progress progress::-moz-progress-bar {
-    background-color: #ff004f;
-    border-radius: 10px;
+
+.p1 {
+    animation: progress-fill-90 2s ease-out forwards;
+}
+.p2 {
+    animation: progress-fill-80 2s ease-out forwards;
+}
+.p3 {
+    animation: progress-fill-70 2s ease-out forwards;
+}
+.p4 {
+    animation: progress-fill-20 2s ease-out forwards;
+}
+.p5 {
+    animation: progress-fill-20 2s ease-out forwards;
 }
 
 @keyframes slide {
@@ -99,39 +130,3 @@
         transform: translateX(0%);
     }
 }
-
-
-
-@keyframes progress-fill {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: var(--progress-width);
-    }
-}
-
-/*.progress-bar {*/
-/*    animation: progress-fill 2s ease-out forwards;*/
-/*    --progress-width: 0%;*/
-/*}*/
-
-/*.progress-bar:nth-child(1) {*/
-/*    --progress-width: 90%;*/
-/*}*/
-
-/*.progress-bar:nth-child(2) {*/
-/*    --progress-width: 80%;*/
-/*}*/
-
-/*.progress-bar:nth-child(3) {*/
-/*    --progress-width: 70%;*/
-/*}*/
-
-/*.progress-bar:nth-child(4) {*/
-/*    --progress-width: 60%;*/
-/*}*/
-
-/*.progress-bar:nth-child(5) {*/
-/*    --progress-width: 100%;*/
-/*}*/
