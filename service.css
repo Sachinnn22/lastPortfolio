@@ -108,6 +108,39 @@
     font-family: cursive;
 }
 
+@media (max-width: 1024px) {
+    .all-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .card {
+        text-align: left;
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .head p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .card h4 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .all-card {
         display: grid;
