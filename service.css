@@ -107,3 +107,71 @@
     color: #ff004f;
     font-family: cursive;
 }
+
+@media (max-width: 425px) {
+    .head h1 {
+        font-size: 36px;
+    }
+
+    .head p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .card {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card h4 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .head h1 {
+        font-size: 32px;
+    }
+
+    .head p {
+        font-size: 15px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .card h4 {
+        font-size: 17px;
+    }
+
+    .card p {
+        font-size: 14.5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .head h1 {
+        font-size: 28px;
+    }
+
+    .head p {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 16px;
+    }
+
+    .card h4 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
