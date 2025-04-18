@@ -18,6 +18,17 @@
     animation: fadeSlideUp 1.2s ease forwards;
 }
 
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .home p {
     font-family: cursive;
     font-size: 35px;
@@ -109,13 +120,43 @@
 */
 
 
-@keyframes fadeSlideUp {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
+
+
+@media all and (max-width: 1024px) {
+    #header {
+        background-image: url("background.png");
     }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
+
+    .home {
+        margin-top: 35%;
+        font-size: 26px;
+    }
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home p {
+        font-size: 30px;
     }
 }
+
+@media all and (max-width: 1440px) {
+    #header {
+        background-image: url("background.png");
+    }
+
+    .home {
+        margin-top: 28%;
+        font-size: 28px;
+    }
+
+    .home h1 {
+        font-size: 56px;
+    }
+
+    .home p {
+        font-size: 33px;
+    }
+}
+
