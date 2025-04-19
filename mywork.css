@@ -36,11 +36,37 @@
     border-radius: 20px;
     width: 450px;
     min-height: 350px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: cardAppearance 0.6s ease-out forwards;
+}
+
+@keyframes cardAppearance {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.work-card:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.work-card:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.work-card:nth-child(3) {
+    animation-delay: 0.9s;
 }
 
 .work-card h3 {
@@ -101,12 +127,12 @@
     .cards-container {
         display: flex;
         justify-content: space-between;
-        gap: 20px;  /* Reduced gap for better alignment */
-        flex-wrap: wrap;  /* Allows wrapping to the next row if needed */
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
     .work-card {
-        width: 48%;  /* Ensures two cards in a row */
+        width: 48%;
         padding: 35px;
         border-radius: 18px;
         margin: 0;
@@ -133,7 +159,6 @@
         margin: 30px auto;
     }
 }
-
 
 @media (max-width: 768px) {
     .my-work-section {
@@ -183,7 +208,6 @@
         margin: 20px auto;
     }
 }
-
 
 @media (max-width: 425px) {
     .my-work-section {
