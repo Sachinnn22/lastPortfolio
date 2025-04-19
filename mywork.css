@@ -1,45 +1,59 @@
 .my-work-section {
     background-color: #262626;
     color: white;
-    padding: 60px 20px;
+    padding: 80px 40px;
     font-family: 'Segoe UI', sans-serif;
+    text-align: center;
 }
 
 .section-header {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 50px;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+.section-subheader {
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    color: #ccc;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards-container {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 40px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
 .work-card {
-    background-color: #333;
-    padding: 30px;
-    border-radius: 16px;
-    width: 400px;
-    min-height: 300px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #333 0%, #444 100%);
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    min-height: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: left;
 }
 
 .work-card h3 {
-    font-size: 2em;
-    margin-bottom: 15px;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #ff6a00;
 }
 
 .work-card p {
     flex-grow: 1;
     font-size: 1.1em;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #ddd;
     line-height: 1.6;
 }
 
@@ -47,19 +61,24 @@
     background-color: #ff6a00;
     color: white;
     border: none;
-    padding: 12px 20px;
+    padding: 14px 24px;
     font-size: 1em;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+    align-self: flex-start;
 }
 
 .work-card button:hover {
     background-color: #e55d00;
+    transform: translateY(-2px);
 }
 
 .divider {
     width: 4px;
     background-color: #666;
     border-radius: 2px;
+    height: auto;
 }
+
+
