@@ -81,6 +81,56 @@
     height: auto;
 }
 
+@media (max-width: 768px) {
+    .my-work-section {
+        padding: 70px 30px;
+    }
+
+    .section-header {
+        font-size: 2.5em;
+    }
+
+    .section-subheader {
+        font-size: 1.1em;
+        margin-bottom: 50px;
+        max-width: 90%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-card {
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 35px;
+        border-radius: 18px;
+    }
+
+    .work-card h3 {
+        font-size: 2em;
+    }
+
+    .work-card p {
+        font-size: 1.05em;
+    }
+
+    .work-card button {
+        font-size: 1em;
+        padding: 12px 22px;
+    }
+
+    .divider {
+        height: 2px;
+        width: 85%;
+        background-color: #666;
+        margin: 20px auto;
+    }
+}
+
+
 @media (max-width: 425px) {
     .my-work-section {
         padding: 60px 20px;
