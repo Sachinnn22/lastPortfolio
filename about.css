@@ -1,3 +1,47 @@
+@keyframes slide {
+    0%, 10% {
+        transform: translateX(0%);
+    }
+    15%, 25% {
+        transform: translateX(-100vw);
+    }
+    30%, 40% {
+        transform: translateX(-200vw);
+    }
+    45%, 55% {
+        transform: translateX(-300vw);
+    }
+    60%, 70% {
+        transform: translateX(-200vw);
+    }
+    75%, 85% {
+        transform: translateX(-100vw);
+    }
+    90%, 100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulseGlow {
+    0%, 100% {
+        text-shadow: 0 0 8px #ff004f;
+    }
+    50% {
+        text-shadow: 0 0 16px #ff004f;
+    }
+}
+
 .about {
     background-color: #262626;
     color: white;
@@ -26,6 +70,7 @@
     padding: 10px;
     box-sizing: border-box;
     overflow-y: auto;
+    animation: fadeInUp 1.2s ease-out both;
 }
 
 .about-divider {
@@ -41,6 +86,7 @@
     font-size: 1.5em;
     font-family: cursive;
     color: white;
+    animation: pulseGlow 2.5s infinite;
 }
 
 .skill-title {
@@ -49,6 +95,7 @@
     font-family: cursive;
     font-size: 1.5em;
     color: white;
+    animation: pulseGlow 2.5s infinite;
 }
 
 .about-text p {
@@ -57,7 +104,7 @@
     color: #ccc;
 }
 
-.about-progress{
+.about-progress {
     overflow-y: hidden;
 }
 
@@ -80,6 +127,9 @@
     height: 100%;
     background: #ff004f;
     width: 0;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
 }
 
 @keyframes progress-fill-90 {
@@ -102,7 +152,6 @@
         width: 50%;
     }
 }
-
 @keyframes progress-fill-60 {
     to {
         width: 60%;
@@ -110,43 +159,19 @@
 }
 
 .p1 {
-    animation: progress-fill-90 2s ease-out forwards;
+    animation: fadeInUp 1s ease-out 0.2s forwards, progress-fill-90 2s ease-out 0.2s forwards;
 }
 .p2 {
-    animation: progress-fill-80 2s ease-out forwards;
+    animation: fadeInUp 1s ease-out 0.4s forwards, progress-fill-80 2s ease-out 0.4s forwards;
 }
 .p3 {
-    animation: progress-fill-70 2s ease-out forwards;
+    animation: fadeInUp 1s ease-out 0.6s forwards, progress-fill-70 2s ease-out 0.6s forwards;
 }
 .p4 {
-    animation: progress-fill-60 2s ease-out forwards;
+    animation: fadeInUp 1s ease-out 0.8s forwards, progress-fill-60 2s ease-out 0.8s forwards;
 }
 .p5 {
-    animation: progress-fill-50 2s ease-out forwards;
-}
-
-@keyframes slide {
-    0%, 10% {
-        transform: translateX(0%);
-    }
-    15%, 25% {
-        transform: translateX(-100vw);
-    }
-    30%, 40% {
-        transform: translateX(-200vw);
-    }
-    45%, 55% {
-        transform: translateX(-300vw);
-    }
-    60%, 70% {
-        transform: translateX(-200vw);
-    }
-    75%, 85% {
-        transform: translateX(-100vw);
-    }
-    90%, 100% {
-        transform: translateX(0%);
-    }
+    animation: fadeInUp 1s ease-out 1s forwards, progress-fill-50 2s ease-out 1s forwards;
 }
 
 @media (max-width: 768px) {
@@ -155,29 +180,23 @@
         height: auto;
         padding: 25px 20px;
     }
-
     .about-img {
         height: 30vh;
     }
-
     .about-text,
     .about-progress {
         padding: 10px 5px;
     }
-
     .about-text h1,
     .skill-title {
         font-size: 1.3em;
     }
-
     .about-text p {
         font-size: 0.95em;
     }
-
     .about-progress p {
         font-size: 0.95em;
     }
-
     .about-divider {
         display: none;
     }
@@ -189,24 +208,19 @@
         height: auto;
         padding: 20px 10px;
     }
-
     .about-img {
         height: 25vh;
     }
-
     .about-text h1,
     .skill-title {
         font-size: 1.2em;
     }
-
     .about-text p {
         font-size: 0.9em;
     }
-
     .about-divider {
         display: none;
     }
-
     .about-progress p {
         font-size: 0.9em;
     }
@@ -217,11 +231,9 @@
     .skill-title {
         font-size: 1.1em;
     }
-
     .about-text p {
         font-size: 0.85em;
     }
-
     .about-img {
         height: 22vh;
     }
@@ -231,17 +243,14 @@
     .about-content {
         padding: 15px 8px;
     }
-
     .about-text h1,
     .skill-title {
         font-size: 1em;
     }
-
     .about-text p,
     .about-progress p {
         font-size: 0.8em;
     }
-
     .about-img {
         height: 20vh;
     }
