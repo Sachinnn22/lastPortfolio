@@ -39,7 +39,7 @@
 
 .sachindu {
     color: #ff004f;
-    text-shadow: 0 0 8px #ff004f;
+    text-shadow: -1px -1px 10px #ff004f;
 }
 
 @media all and (max-width: 320px) {
