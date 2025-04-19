@@ -47,6 +47,7 @@
     box-sizing: border-box;
     opacity: 1;
     transform: translateY(0);
+    animation: cardAppearance 0.9s ease-out forwards;
 }
 
 @keyframes cardAppearance {
@@ -61,11 +62,11 @@
 }
 
 .card:nth-child(1) {
-    animation-delay: 0.3s;
+    animation-delay: 0.4s;
 }
 
 .card:nth-child(2) {
-    animation-delay: 0.6s;
+    animation-delay: 0.7s;
 }
 
 .card:nth-child(3) {
