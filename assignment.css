@@ -1,0 +1,21 @@
+.assignment-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.a-card {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #ff004f;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.a-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 12px #ff004f;
+}
