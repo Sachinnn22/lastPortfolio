@@ -1,7 +1,7 @@
 .projects {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 50px 20px;
 }
 
 .head {
@@ -10,7 +10,7 @@
 }
 
 .head h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     color: white;
     margin: 20px;
 }
@@ -21,8 +21,8 @@
 }
 
 .head p {
-    font-size: 1.3rem;
-    width: 600px;
+    font-size: 1.2rem;
+    width: 550px;
     color: #ccc;
     margin: 5px auto;
     text-align: center;
@@ -36,8 +36,8 @@
 }
 
 .p-card {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     background-color: #333;
     border-radius: 12px;
     overflow: hidden;
@@ -53,7 +53,6 @@
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
-
 
 @keyframes cardAppearance {
     0% {
@@ -71,114 +70,82 @@
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width: 1024px) {
-    .projects {
-        padding: 60px 20px;
+@media screen and (max-width: 768px) {
+    .head h1 {
+        font-size: 2.4rem;
+    }
+
+    .head p {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+
+    .p-cards {
+        gap: 25px;
     }
 
     .p-card {
-        width: 45%;
-        height: auto;
+        width: 260px;
+        height: 260px;
     }
+}
 
-    .p-card img {
-        height: 220px;
-    }
-
+@media screen and (max-width: 425px) {
     .head h1 {
         font-size: 2.2rem;
     }
 
     .head p {
         font-size: 1rem;
+        width: 85%;
     }
-}
 
-@media (max-width: 768px) {
     .p-cards {
-        gap: 25px;
-        flex-direction: column;
-        align-items: center;
+        gap: 20px;
     }
 
     .p-card {
-        width: 85%;
-        height: auto;
+        width: 240px;
+        height: 240px;
     }
+}
 
+@media screen and (max-width: 375px) {
     .head h1 {
         font-size: 2rem;
     }
 
     .head p {
         font-size: 0.95rem;
+        width: 80%;
     }
-}
 
-@media (max-width: 425px) {
-    .projects {
-        padding: 50px 15px;
+    .p-cards {
+        gap: 15px;
     }
 
     .p-card {
-        width: 90%;
-        height: auto;
+        width: 220px;
+        height: 220px;
     }
+}
 
-    .p-card img {
-        height: 200px;
-    }
-
+@media screen and (max-width: 320px) {
     .head h1 {
         font-size: 1.8rem;
     }
 
     .head p {
         font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 375px) {
-    .projects {
-        padding: 40px 10px;
+        width: 75%;
     }
 
-    .p-card {
-        width: 95%;
-        height: auto;
-    }
-
-    .p-card img {
-        height: 180px;
-    }
-
-    .head h1 {
-        font-size: 1.7rem;
-    }
-
-    .head p {
-        font-size: 0.85rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .projects {
-        padding: 30px 10px;
+    .p-cards {
+        gap: 10px;
     }
 
     .p-card {
-        width: 100%;
-    }
-
-    .p-card img {
-        height: 160px;
-    }
-
-    .head h1 {
-        font-size: 1.5rem;
-    }
-
-    .head p {
-        font-size: 0.8rem;
+        width: 200px;
+        height: 200px;
     }
 }
