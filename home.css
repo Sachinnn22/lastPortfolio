@@ -14,8 +14,9 @@
 .home h1 {
     font-size: 60px;
     margin-top: 20px;
+    font-family: Poppins;
     opacity: 0;
-    animation: fadeSlideUp 1.2s ease forwards;
+    animation: fadeSlideUp 2s ease forwards;
 }
 
 @keyframes fadeSlideUp {
@@ -33,12 +34,13 @@
     font-family: cursive;
     font-size: 35px;
     opacity: 0;
-    animation: fadeSlideUp 1.2s ease forwards;
+    animation: fadeSlideUp 2s ease forwards;
     animation-delay: 0.4s;
 }
 
 .sachindu {
     color: #ff004f;
+    font-family: cursive;
     text-shadow: -1px -1px 10px #ff004f;
 }
 
