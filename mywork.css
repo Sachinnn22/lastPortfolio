@@ -107,65 +107,6 @@
     height: auto;
 }
 
-@media (max-width: 1024px) {
-    .my-work-section {
-        padding: 80px 40px;
-    }
-
-    .section-header {
-        font-size: 2.8em;
-    }
-
-    .section-subheader {
-        font-size: 1.2em;
-        margin-bottom: 60px;
-        max-width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cards-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        gap: 20px;
-        overflow-x: auto; /* enables horizontal scrolling if needed */
-        padding-bottom: 10px;
-    }
-
-    .work-card {
-        flex: 0 0 32%; /* make each card about 1/3 width */
-        min-width: 300px;
-        max-width: 32%;
-        padding: 30px;
-        border-radius: 18px;
-        margin: 0;
-    }
-
-    .work-card h3 {
-        font-size: 2em;
-    }
-
-    .work-card p {
-        font-size: 1em;
-        margin-bottom: 18px;
-    }
-
-    .work-card button {
-        font-size: 1em;
-        padding: 12px 20px;
-    }
-
-    .divider {
-        width: 2px; /* Vertical line width */
-        height: 100%; /* Full height of the section */
-        background-color: #666;
-        margin: 0 20px; /* Adjust margin to space out the divider */
-    }
-}
-
-
 
 @media (max-width: 768px) {
     .my-work-section {
