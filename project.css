@@ -1,16 +1,29 @@
+
 .projects {
-    background-color: #262626;
     max-width: 1200px;
-    margin: 0px auto;
-    padding: 70px 20px;
+    margin: 0 auto;
+    padding: 80px 20px;
+
 }
 
-.projects h2 {
+.head {
     text-align: center;
-    font-size: 2.8em;
     margin-bottom: 50px;
-    color: #ece6e6;
-    letter-spacing: 1px;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.head span {
+    color: #ff004f;
+}
+
+.head p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
 }
 
 .p-cards {
@@ -21,17 +34,25 @@
 }
 
 .p-card {
+    width: 300px;
+    height: 300px;
     background-color: #333;
     border-radius: 12px;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     animation: cardAppearance 0.8s ease-out forwards;
     opacity: 0;
 }
 
+.p-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Animation for Card Appearance */
 @keyframes cardAppearance {
     0% {
         opacity: 0;
@@ -43,53 +64,16 @@
     }
 }
 
-.p-card:nth-child(1) {
-    animation-delay: 0.4s;
+/* Hover Effect */
+.p-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
 }
 
-.p-card:nth-child(2) {
-    animation-delay: 0.7s;
-}
-
-.p-card:nth-child(3) {
-    animation-delay: 1s;
-}
-
-.p-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-}
-
-.card-content {
-    padding: 15px 20px;
-}
-
-.card-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #ececec;
-}
-
-.card-desc {
-    color: #bbb;
-    font-size: 0.95em;
-}
-
-@media (max-width: 768px) {
+/* Responsiveness */
+@media (max-width: 1024px) {
     .projects {
         padding: 60px 20px;
-    }
-
-    .projects h2 {
-        font-size: 2.4em;
-        margin-bottom: 40px;
-    }
-
-    .p-cards {
-        gap: 25px;
     }
 
     .p-card {
@@ -101,28 +85,39 @@
         height: 220px;
     }
 
-    .card-title {
-        font-size: 1.1em;
+    .head h1 {
+        font-size: 2.2rem;
     }
 
-    .card-desc {
-        font-size: 0.95em;
+    .head p {
+        font-size: 1rem;
     }
 }
 
+@media (max-width: 768px) {
+    .p-cards {
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-card {
+        width: 85%;
+        height: auto;
+    }
+
+    .head h1 {
+        font-size: 2rem;
+    }
+
+    .head p {
+        font-size: 0.95rem;
+    }
+}
 
 @media (max-width: 425px) {
     .projects {
         padding: 50px 15px;
-    }
-
-    .projects h2 {
-        font-size: 2.2em;
-        margin-bottom: 35px;
-    }
-
-    .p-cards {
-        gap: 20px;
     }
 
     .p-card {
@@ -134,12 +129,12 @@
         height: 200px;
     }
 
-    .card-title {
-        font-size: 1.1em;
+    .head h1 {
+        font-size: 1.8rem;
     }
 
-    .card-desc {
-        font-size: 0.9em;
+    .head p {
+        font-size: 0.9rem;
     }
 }
 
@@ -148,34 +143,27 @@
         padding: 40px 10px;
     }
 
-    .projects h2 {
-        font-size: 2em;
-    }
-
     .p-card {
         width: 95%;
+        height: auto;
     }
 
     .p-card img {
         height: 180px;
     }
 
-    .card-title {
-        font-size: 1em;
+    .head h1 {
+        font-size: 1.7rem;
     }
 
-    .card-desc {
-        font-size: 0.88em;
+    .head p {
+        font-size: 0.85rem;
     }
 }
 
 @media (max-width: 320px) {
     .projects {
         padding: 30px 10px;
-    }
-
-    .projects h2 {
-        font-size: 1.8em;
     }
 
     .p-card {
@@ -186,13 +174,11 @@
         height: 160px;
     }
 
-    .card-title {
-        font-size: 0.95em;
+    .head h1 {
+        font-size: 1.5rem;
     }
 
-    .card-desc {
-        font-size: 0.85em;
+    .head p {
+        font-size: 0.8rem;
     }
 }
-
-
