@@ -1,4 +1,3 @@
-
 .projects {
     max-width: 1200px;
     margin: 0 auto;
@@ -6,7 +5,6 @@
 }
 
 .head {
-
     text-align: center;
     margin-bottom: 50px;
 }
@@ -14,17 +12,20 @@
 .head h1 {
     font-size: 2.8rem;
     color: white;
+    margin: 20px;
 }
 
 .head span {
     color: #ff004f;
-    text-shadow: -1px -1px 10px #ff004f;;
+    text-shadow: -1px -1px 10px #ff004f;
 }
 
 .head p {
-    font-size: 1.1rem;
-    color: white;
-    margin-top: 10px;
+    font-size: 1.3rem;
+    width: 600px;
+    color: #ccc;
+    margin: 5px auto;
+    text-align: center;
 }
 
 .p-cards {
@@ -53,7 +54,7 @@
     border-radius: 12px 12px 0 0;
 }
 
-/* Animation for Card Appearance */
+
 @keyframes cardAppearance {
     0% {
         opacity: 0;
@@ -65,13 +66,11 @@
     }
 }
 
-/* Hover Effect */
 .p-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
 }
 
-/* Responsiveness */
 @media (max-width: 1024px) {
     .projects {
         padding: 60px 20px;
