@@ -91,7 +91,6 @@
 }
 
 .p-card:hover .p-card-head {
-    cursor: pointer;
     transform: translateY(0);
 }
 
@@ -103,7 +102,7 @@
     margin: 0;
 }
 
-.p-card-overlay p {
+.p-card-head p {
     font-size: 1rem;
     color: #ccc;
     line-height: 1.4;
