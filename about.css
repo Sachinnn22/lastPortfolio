@@ -2,15 +2,21 @@
     background-color: #262626;
     color: white;
     padding: 60px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about-img {
-    width: 100%;
+    width: 100vw;
     height: 30vh;
     background-image: url("slide4.jpeg.jpg");
     background-position: center;
     background-size: cover;
     animation: slide ease-in-out 12s;
+    margin: 0 -60px;
+    position: relative;
+    left: 0;
+    right: 0;
 }
 
 .about-content {
@@ -176,6 +182,10 @@
 }
 
 @media (max-width: 1024px) {
+    .about {
+        padding: 0;
+    }
+
     .about-content {
         flex-direction: column;
         height: auto;
@@ -184,6 +194,8 @@
 
     .about-img {
         height: 25vh;
+        margin: 0;
+        width: 100%;
     }
 
     .about-text,
@@ -211,6 +223,10 @@
 
 
 @media (max-width: 768px) {
+    .about {
+        padding: 0;
+    }
+
     .about-content {
         flex-direction: column;
         height: auto;
@@ -239,6 +255,10 @@
 }
 
 @media (max-width: 425px) {
+    .about {
+        padding: 0;
+    }
+
     .about-content {
         flex-direction: column;
         height: auto;
