@@ -6,20 +6,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*horizontaly okkoma rap krnwa*/
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 99;
     padding: 5px 10%;
 }
 
 .nav-logo {
     cursor: pointer;
     width: 110px;
-    margin-right: 0;
+    /*margin-right: 0;*/
 }
 
 nav ul {
@@ -44,6 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+
     color: #ff004f;
 }
 

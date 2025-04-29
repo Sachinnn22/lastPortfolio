@@ -22,7 +22,7 @@
     color: #ccc;
     margin: 0 10px;
     font-size: 20px;
-    transition: color 0.3s;
+    transition: 0.3s;
 }
 
 .social-icons a:hover {

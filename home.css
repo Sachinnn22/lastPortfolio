@@ -44,84 +44,24 @@
     text-shadow: -1px -1px 10px #ff004f;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 1440px) {
     #header {
-        background-image: url("phone-background.png");
+        background-image: url("background.png");
     }
 
     .home {
-        margin-top: 100%;
-        font-size: 16px;
-    }
-
-    .home h1 {
-        font-size: 34px;
-    }
-
-    .home p {
-        font-size: 25px;
-    }
-}
-
-@media all and (max-width: 375px) {
-    #header {
-        background-image: url("phone-background.png");
-    }
-
-    .home {
-        margin-top: 85%;
-        font-size: 17px;
-    }
-
-    .home h1 {
-        font-size: 40px;
-    }
-
-    .home p {
-        font-size: 22px;
-    }
-}
-
-@media all and (max-width: 425px) {
-    #header {
-        background-image: url("phone-background.png");
-    }
-
-    .home {
-        margin-top: 80%;
-        font-size: 18px;
-    }
-
-    .home h1 {
-        font-size: 36px;
-    }
-
-    .home p {
-        font-size: 23px;
-    }
-}
-
-/* Optional tablet breakpoint
-@media all and (max-width: 768px) {
-    #header {
-    }
-
-    .home {
-        margin-top: 50%;
+        margin-top: 28%;
         font-size: 28px;
     }
 
     .home h1 {
-        font-size: 44px;
+        font-size: 56px;
     }
 
     .home p {
-        font-size: 30px;
+        font-size: 33px;
     }
 }
-*/
-
-
 
 
 @media all and (max-width: 1024px) {
@@ -143,22 +83,82 @@
     }
 }
 
-@media all and (max-width: 1440px) {
+
+@media all and (max-width: 768px) {
     #header {
-        background-image: url("background.png");
     }
 
     .home {
-        margin-top: 28%;
+        margin-top: 50%;
         font-size: 28px;
     }
 
     .home h1 {
-        font-size: 56px;
+        font-size: 44px;
     }
 
     .home p {
-        font-size: 33px;
+        font-size: 30px;
     }
 }
+
+
+@media all and (max-width: 425px) {
+    #header {
+        background-image: url("phone-background.png");
+    }
+
+    .home {
+        margin-top: 80%;
+        font-size: 18px;
+    }
+
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .home p {
+        font-size: 23px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    #header {
+        background-image: url("phone-background.png");
+    }
+
+    .home {
+        margin-top: 85%;
+        font-size: 17px;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home p {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #header {
+        background-image: url("phone-background.png");
+    }
+
+    .home {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .home h1 {
+        font-size: 34px;
+    }
+
+    .home p {
+        font-size: 25px;
+    }
+}
+
 
