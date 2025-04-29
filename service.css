@@ -93,30 +93,9 @@
     font-family: cursive;
 }
 
-/* Media Queries */
-
-/* Large screens - 1024px and below */
-@media screen and (max-width: 1024px) {
-    .all-card {
-        max-width: 900px;
-        gap: 25px;
-    }
-
-    .head h1 {
-        font-size: 42px;
-    }
-
+@media (max-width: 1024px) {
     .service {
-        padding: 70px 15px;
-    }
-}
-
-/* Medium screens - 768px and below */
-@media screen and (max-width: 768px) {
-    .all-card {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        padding: 0 15px;
+        padding: 60px 20px;
     }
 
     .head h1 {
@@ -125,18 +104,62 @@
 
     .head p {
         font-size: 16px;
-        max-width: 500px;
+        max-width: 90%;
+    }
+
+    .all-card {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        padding: 0 10px;
     }
 
     .card {
-        height: 280px;
-        padding: 20px;
+        height: auto;
+        padding: 22px;
     }
 
-    .service {
-        padding: 60px 15px;
+    .card h4 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 15px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .service {
+        padding: 50px 10px;
+    }
+
+    .head h1 {
+        font-size: 32px;
+    }
+
+    .head p {
+        font-size: 14px;
+    }
+
+    .all-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        height: auto;
+        padding: 18px;
+    }
+
+    .card h4 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+
 
 
 @media screen and (max-width: 425px) {
