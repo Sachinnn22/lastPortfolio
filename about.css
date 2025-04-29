@@ -1,13 +1,12 @@
-
 .about {
     background-color: #262626;
     color: white;
-    padding: 30px;
+    padding: 0;
 }
 
 .about-img {
     width: 100%;
-    height: 35vh;
+    height: 30vh;
     background-image: url("slide4.jpeg.jpg");
     background-position: center;
     background-size: cover;
@@ -184,7 +183,7 @@
     }
 
     .about-img {
-        height: 30vh;
+        height: 25vh;
     }
 
     .about-text,
@@ -218,7 +217,7 @@
         padding: 25px 20px;
     }
     .about-img {
-        height: 30vh;
+        height: 22vh;
     }
     .about-text,
     .about-progress {
@@ -246,7 +245,7 @@
         padding: 20px 10px;
     }
     .about-img {
-        height: 25vh;
+        height: 20vh;
     }
     .about-text h1,
     .skill-title {
@@ -272,7 +271,7 @@
         font-size: 0.85em;
     }
     .about-img {
-        height: 22vh;
+        height: 18vh;
     }
 }
 
@@ -289,6 +288,6 @@
         font-size: 0.8em;
     }
     .about-img {
-        height: 20vh;
+        height: 16vh;
     }
 }

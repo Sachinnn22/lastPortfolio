@@ -331,7 +331,6 @@
     margin: 10px 0 0;
 }
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
     .projects {
         padding: 40px 15px;
@@ -392,7 +391,6 @@
     }
 }
 
-/* For medium phones (375px) */
 @media screen and (max-width: 375px) {
     .head h1 {
         font-size: 1.6rem;
@@ -412,7 +410,6 @@
     }
 }
 
-/* For smaller phones (320px) */
 @media screen and (max-width: 320px) {
     .projects {
         padding: 25px 10px;
