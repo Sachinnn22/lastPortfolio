@@ -1,7 +1,6 @@
 .about {
     background-color: #262626;
     color: white;
-    padding: 60px;
     width: 100%;
     overflow: hidden;
 }
@@ -9,7 +8,8 @@
 .slideshow-container {
     position: relative;
     width: 100vw;
-    height: 30vh;
+    padding-top: 50px;
+    height: 40vh;
     overflow: hidden;
 }
 
@@ -280,6 +280,7 @@
 
     .about-content {
         flex-direction: column;
+        margin-top: -50px;
         height: auto;
         padding: 20px 10px;
     }
@@ -312,6 +313,10 @@
         font-size: 1.1em;
     }
 
+    .about-content{
+        margin-top: -60px;
+    }
+
     .about-text p {
         font-size: 0.85em;
     }
@@ -322,7 +327,10 @@
 }
 
 @media (max-width: 320px) {
+
+
     .about-content {
+        margin-top: -60px;
         padding: 15px 8px;
     }
 

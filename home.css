@@ -16,8 +16,8 @@
     font-size: 60px;
     margin-top: 20px;
     font-family: Poppins;
-    opacity: 0;
-    animation: fadeSlideUp 2s ease forwards;
+    opacity: 1;
+    /*animation: fadeSlideUp 2s ease forwards;*/
 }
 
 @keyframes fadeSlideUp {
@@ -156,7 +156,7 @@
     }
 
     .home {
-        margin-top: 100%;
+        margin-top: 250px;
         font-size: 16px;
     }
 
