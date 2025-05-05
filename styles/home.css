@@ -4,7 +4,6 @@
     background-image: url("../images/background.png");
     background-size: cover;
     background-position: center;
-    background-color: black;
 }
 
 .home {
@@ -18,7 +17,6 @@
     font-family: Poppins;
     opacity: 1;
 }
-
 
 .home p {
     font-family: cursive;
