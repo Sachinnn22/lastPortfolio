@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -45,7 +46,8 @@
             <img src="icons8-menu-50%20(1).png" class="menu-icon" style="width: 30px">
         </nav>
 
-        <section class="home" >
+        <section class="home" data-aos="fade-up"
+                 data-aos-duration="3000">
             <p>Web Designer</p>
             <h1>Hi, I am <span class="sachindu">Sachindu <br>Chirau</span>  From Sri Lanka</h1>
         </section>
@@ -58,7 +60,9 @@
         <p>I believe in quality, consistency, and putting people first <br>that’s the service I stand behind.</p>
     </div>
 
-    <div class="all-card">
+    <div class="all-card" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
         <div class="card">
             <img src="icons8-web-design-60.png" alt="Web design" width="60px" style="margin-bottom: 10px">
             <h4>Website Design</h4>
@@ -93,8 +97,9 @@
 <!--        <div class="about-img"></div>-->
 <!--    </div>-->
 
-    <div class="about-content">
-        <div class="about-text">
+    <div class="about-content"data-aos="fade-up"
+         data-aos-duration="3000">
+        <div class="about-text" >
             <h1>My Self</h1>
             <p>My name is <span class="sachindu">Sachindu</span>, and I am 18 years old. I live in Piliyandala and completed my schooling at Thurstan College. Currently, I’m pursuing my studies at IJSE, focusing on software development and programming. From a young age, I have been fascinated by technology and its endless possibilities. I enjoy learning new programming languages and diving into the worlds of web and app development. My goal is to blend this passion with practical skills to create innovative and impactful solutions. I am particularly interested in building applications that solve real-world problems efficiently. As I continue my journey in the tech industry, I aim to grow as a professional, contribute to meaningful projects, and become a successful software developer who never stops learning and improving.</p>
         </div>
@@ -133,23 +138,27 @@
     </div>
 </section>
 
-<section class="my-work-section" id="myWork">
-    <h2 class="section-header">My <span class="sachindu">Work</span></h2>
-    <p class="section-subheader">Here are some of the projects and assignments I've worked on. Each one reflects my skills, creativity, and dedication.</p>
+<section class="my-work-section" id="myWork" >
+    <div  data-aos="fade-up"
+          data-aos-duration="3000">
+        <h2 class="section-header">My <span class="sachindu">Work</span></h2>
+        <p class="section-subheader">Here are some of the projects and assignments I've worked on. Each one reflects my skills, creativity, and dedication.</p>
 
-    <div class="cards-container">
-        <div class="work-card">
-            <h3>Project</h3>
-            <p>“This project highlights my experience and creativity in real-world applications. It demonstrates my ability to design, build, and deliver effective solutions with a strong focus on usability and performance.”</p>
-            <a href="project.html"><button>View Project</button></a>
-        </div>
+        <div class="cards-container">
+            <div class="work-card"  data-aos="fade-up"
+                 data-aos-duration="3000">
+                <h3>Project</h3>
+                <p>“This project highlights my experience and creativity in real-world applications. It demonstrates my ability to design, build, and deliver effective solutions with a strong focus on usability and performance.”</p>
+                <a href="project.html"><button>View Project</button></a>
+            </div>
 
-        <div class="divider"></div>
+            <div class="divider"></div>
 
-        <div class="work-card">
-            <h3>Assignment</h3>
-            <p>“This assignment highlights my problem-solving skills and understanding of core concepts through practical implementation. It involved analyzing requirements, designing efficient solutions, and applying best practices to deliver reliable results.”</p>
-            <a href="project.html"><button>View Assignment</button></a>
+            <div class="work-card">
+                <h3>Assignment</h3>
+                <p>“This assignment highlights my problem-solving skills and understanding of core concepts through practical implementation. It involved analyzing requirements, designing efficient solutions, and applying best practices to deliver reliable results.”</p>
+                <a href="project.html"><button>View Assignment</button></a>
+            </div>
         </div>
     </div>
 </section>
@@ -183,22 +192,26 @@
 <!--    </div>-->
 <!--</section>-->
 
-<section class="contact" id="contact">
-    <div class="contact-container">
-        <h2>Contact Me</h2>
-        <p>We would love to hear from you! Drop us a message, and we’ll get back to you as soon as possible.</p>
+<section class="contact" id="contact" >
+  <div data-aos="fade-down"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
+      <div class="contact-container">
+          <h2>Contact Me</h2>
+          <p>We would love to hear from you! Drop us a message, and we’ll get back to you as soon as possible.</p>
 
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+          <form action="#" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
 
-        <div class="contact-info">
-            <p>Or email us at <a href="mailto:sachinduchirau7@gmail.com">sachinduchirau7@gmail.com</a></p>
-        </div>
-    </div>
+          <div class="contact-info">
+              <p>Or email us at <a href="mailto:sachinduchirau7@gmail.com">sachinduchirau7@gmail.com</a></p>
+          </div>
+      </div>
+  </div>
 </section>
 
 <footer class="footer">
@@ -219,7 +232,10 @@
 </footer>
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

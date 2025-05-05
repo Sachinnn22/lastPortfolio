@@ -60,6 +60,7 @@
     display: flex;
     align-items: stretch;
     padding: 30px;
+    font-family: monospace;
     height: 65vh;
     box-sizing: border-box;
 }
