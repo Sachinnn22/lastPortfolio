@@ -34,6 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: "Script MT Bold";
     color: #fff;
     font-weight: bolder;
     text-decoration: none;
