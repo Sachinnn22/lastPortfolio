@@ -151,7 +151,6 @@
     width: 0;
     transform: translateY(20px);
     opacity: 0;
-    animation: fadeInUp 1s ease-out forwards;
 }
 
 @keyframes progress-fill-90 {
