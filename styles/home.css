@@ -1,9 +1,9 @@
 #header {
     width: 100%;
     height: 100vh;
-    /*background-image: url("background-Photoroom.png");*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
     background-color: black;
 }
 
@@ -17,25 +17,12 @@
     margin-top: 20px;
     font-family: Poppins;
     opacity: 1;
-    /*animation: fadeSlideUp 2s ease forwards;*/
 }
 
-@keyframes fadeSlideUp {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 .home p {
     font-family: cursive;
     font-size: 35px;
-    opacity: 0;
-    animation: fadeSlideUp 2s ease forwards;
     animation-delay: 0.4s;
 }
 
@@ -47,8 +34,7 @@
 
 @media all and (max-width: 1440px) {
     #header {
-        /*background-image: url("background.png");*/
-        background-color: black;
+        background-image: url("../images/background.png");
     }
 
     .home {
@@ -68,8 +54,7 @@
 
 @media all and (max-width: 1024px) {
     #header {
-        /*background-image: url("background.png");*/
-        background-color: black;
+        background-image: url("../images/background.png");
     }
 
     .home {
@@ -89,7 +74,7 @@
 
 @media all and (max-width: 768px) {
     #header {
-        background-color: black;
+        background-image: url("../images/background.png");
     }
 
     .home {
@@ -109,8 +94,7 @@
 
 @media all and (max-width: 425px) {
     #header {
-        /*background-image: url("phone-background.png");*/
-        background-color: black;
+        background-image: url("../images/phone-background.png");
     }
 
 
@@ -131,8 +115,7 @@
 
 @media all and (max-width: 375px) {
     #header {
-        /*background-image: url("phone-background.png");*/
-        background-color: black;
+        background-image: url("../images/phone-background.png");
     }
 
     .home {
@@ -151,8 +134,8 @@
 
 @media all and (max-width: 320px) {
     #header {
-        /*background-image: url("phone-background.png");*/
-        background-color: black;
+        background-image: url("../images/phone-background.png");
+
     }
 
     .home {
