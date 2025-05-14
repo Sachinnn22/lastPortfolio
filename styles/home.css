@@ -110,6 +110,25 @@
     }
 }
 
+@media all and (max-width: 395px) {
+    #header {
+        background-image: url("../images/phone-background.png");
+    }
+
+    .home {
+        margin-top: 82%;
+        font-size: 17px;
+    }
+
+    .home h1 {
+        font-size: 38px;
+    }
+
+    .home p {
+        font-size: 24px;
+    }
+}
+
 
 @media all and (max-width: 375px) {
     #header {
