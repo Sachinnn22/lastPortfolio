@@ -100,6 +100,72 @@ body {
     margin: 10px 0 0;
 }
 
+@media screen and (max-width: 1440px) {
+    .projects {
+        padding: 60px 30px;
+    }
+
+    .head h1 {
+        font-size: 2.4rem;
+    }
+
+    .head p {
+        font-size: 1.15rem;
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .p-cards {
+        gap: 35px;
+    }
+
+    .p-card {
+        width: 270px;
+        height: 270px;
+    }
+
+    .p-card-head h1 {
+        font-size: 1.4rem;
+    }
+
+    .p-card-head p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projects {
+        padding: 45px 20px;
+    }
+
+    .head h1 {
+        font-size: 2.3rem;
+    }
+
+    .head p {
+        font-size: 1.1rem;
+        width: 90%;
+        max-width: 520px;
+    }
+
+    .p-cards {
+        gap: 28px;
+    }
+
+    .p-card {
+        width: 260px;
+        height: 260px;
+    }
+
+    .p-card-head h1 {
+        font-size: 1.4rem;
+    }
+
+    .p-card-head p {
+        font-size: 0.98rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .projects {
         padding: 40px 15px;
