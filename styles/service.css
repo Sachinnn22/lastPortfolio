@@ -135,6 +135,37 @@
     font-family: cursive;
 }
 
+@media (max-width: 1440px) {
+    .service {
+        padding: 80px 20px;
+    }
+
+    .head h1 {
+        font-size: 46px;
+    }
+
+    .head p {
+        font-size: 17px;
+    }
+
+    .all-card {
+        gap: 28px;
+        padding: 0 18px;
+    }
+
+    .card {
+        padding: 28px;
+    }
+
+    .card h4 {
+        font-size: 21px;
+    }
+
+    .card p {
+        font-size: 15.5px;
+    }
+}
+
 @media (max-width: 1024px) {
     .service {
         padding: 60px 20px;
@@ -293,6 +324,6 @@
     }
 
     .service {
-        padding: 40px 10px;o
+        padding: 40px 10px;
     }
 }

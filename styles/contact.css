@@ -119,6 +119,32 @@ button:hover {
     }
 }
 
+@media (max-width: 1024px) {
+    .contact {
+        padding: 90px 20px;
+    }
+
+    .contact-container {
+        max-width: 500px;
+        padding: 40px 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+        font-size: 15px;
+        padding: 12px 14px;
+    }
+}
+
 @media (max-width: 768px) {
     .contact {
         padding: 50px 15px;
