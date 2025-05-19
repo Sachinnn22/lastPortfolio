@@ -82,6 +82,41 @@
     height: auto;
 }
 
+@media (max-width: 1440px) {
+    .my-work-section {
+        padding: 70px 35px;
+    }
+
+    .section-header {
+        font-size: 2.8em;
+    }
+
+    .section-subheader {
+        font-size: 1.15em;
+    }
+
+    .cards-container {
+        gap: 50px;
+    }
+
+    .work-card {
+        width: 420px;
+        padding: 35px;
+    }
+
+    .work-card h3 {
+        font-size: 2em;
+    }
+
+    .work-card p {
+        font-size: 1.05em;
+    }
+
+    .work-card button {
+        padding: 13px 22px;
+        font-size: 0.95em;
+    }
+}
 
 @media (max-width: 1024px) {
     .my-work-section {
@@ -127,7 +162,6 @@
         padding: 12px 20px;
     }
 }
-
 
 @media (max-width: 768px) {
     .my-work-section {
