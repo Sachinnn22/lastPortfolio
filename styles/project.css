@@ -1,17 +1,14 @@
-/* General Styles */
 body {
     background-color: #262626;
     font-family: Arial, sans-serif;
 }
 
-/* Projects Section */
 .projects {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
 }
 
-/* Header Styles */
 .head {
     text-align: center;
     margin-bottom: 50px;
@@ -36,7 +33,6 @@ body {
     text-align: center;
 }
 
-/* Card Styles */
 .p-cards {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +63,6 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
 }
 
-/* Card Head Styles */
 .p-card-head {
     position: absolute;
     top: 0;
@@ -105,7 +100,6 @@ body {
     margin: 10px 0 0;
 }
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
     .projects {
         padding: 40px 15px;
