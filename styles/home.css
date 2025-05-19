@@ -1,40 +1,44 @@
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/mine.png");
+    background-image: url("../images/Sachiya 72.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .home {
     margin-top: 20%;
     font-size: 30px;
+    text-align: left;
 }
 
 .home h1 {
     font-size: 60px;
     margin-top: 20px;
-    font-family: Poppins;
+    font-weight: 700;
     opacity: 1;
+    letter-spacing: 1px;
 }
 
 .home p {
-    font-family: cursive;
+    font-family: 'Cursive', sans-serif;
     font-size: 35px;
+    margin-top: 10px;
     animation-delay: 0.4s;
+    opacity: 0.95;
 }
 
 .sachindu {
     color: #ff004f;
-    font-family: cursive;
-    text-shadow: -1px -1px 10px #ff004f;
+    font-family: 'Cursive', sans-serif;
+    text-shadow: 0 0 10px #ff004f;
 }
 
-@media all and (max-width: 1440px) {
-    #header {
-        background-image: url("../images/Sachiya 72.png");
-    }
-
+@media (max-width: 1440px) {
     .home {
         margin-top: 36%;
         font-size: 28px;
@@ -49,11 +53,7 @@
     }
 }
 
-@media all and (max-width: 1024px) {
-    #header {
-        background-image: url("../images/Sachiya 72.png");
-    }
-
+@media (max-width: 1024px) {
     .home {
         margin-top: 38%;
         font-size: 26px;
@@ -68,14 +68,10 @@
     }
 }
 
-@media all and (max-width: 768px) {
-    #header {
-        background-image: url("../images/Sachiya 72.png");
-    }
-
+@media (max-width: 768px) {
     .home {
         margin-top: 50%;
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .home h1 {
@@ -83,11 +79,11 @@
     }
 
     .home p {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
-@media all and (max-width: 425px) {
+@media (max-width: 425px) {
     #header {
         background-image: url("../images/Sachi.png");
     }
@@ -106,11 +102,7 @@
     }
 }
 
-@media all and (max-width: 395px) {
-    #header {
-        background-image: url("../images/Sachi.png");
-    }
-
+@media (max-width: 395px) {
     .home {
         margin-top: 82%;
         font-size: 17px;
@@ -125,11 +117,7 @@
     }
 }
 
-@media all and (max-width: 375px) {
-    #header {
-        background-image: url("../images/Sachi.png");
-    }
-
+@media (max-width: 375px) {
     .home {
         margin-top: 85%;
         font-size: 17px;
@@ -144,11 +132,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
-    #header {
-        background-image: url("../images/Sachi.png");
-    }
-
+@media (max-width: 320px) {
     .home {
         margin-top: 290px;
         font-size: 16px;
