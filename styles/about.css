@@ -153,6 +153,27 @@
 .p4 { width: 75%; }
 .p5 { width: 80%; }
 
+@media (max-width: 1440px) {
+    .about-content {
+        padding: 28px;
+        height: 63vh;
+    }
+
+    .about-text h1,
+    .skill-title {
+        font-size: 1.45em;
+    }
+
+    .about-text p,
+    .about-progress p {
+        font-size: 0.95em;
+    }
+
+    .about-progress-container {
+        height: 18px;
+    }
+}
+
 @media (max-width: 1024px) {
     .about {
         padding: 0;
