@@ -17,7 +17,6 @@
     display: flex;
     width: 400%;
     height: 100%;
-    animation: slide 12s infinite ease-in-out;
 }
 
 .slide {
@@ -30,48 +29,6 @@
     background-image: url("../images/slide4.jpeg.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.slide:nth-child(2) {
-    background-image: url("../images/slide2.jpeg.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.slide:nth-child(3) {
-    background-image: url("../images/slide4.jpeg.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.slide:nth-child(4) {
-    background-image: url("../images/slide2.jpeg.jpg");
-    background-size: contain;
-    background-position: center;
-}
-
-@keyframes slide {
-    0%, 10% {
-        transform: translateX(0%);
-    }
-    15%, 25% {
-        transform: translateX(-100vw);
-    }
-    30%, 40% {
-        transform: translateX(-200vw);
-    }
-    45%, 55% {
-        transform: translateX(-300vw);
-    }
-    60%, 70% {
-        transform: translateX(-200vw);
-    }
-    75%, 85% {
-        transform: translateX(-100vw);
-    }
-    90%, 100% {
-        transform: translateX(0%);
-    }
 }
 
 .about-content {
