@@ -23,9 +23,6 @@
     width: 100vw;
     height: 100vh;
     flex-shrink: 0;
-}
-
-.slide:first-child {
     background-image: url("../images/slide4.jpeg.jpg");
     background-size: cover;
     background-position: center;

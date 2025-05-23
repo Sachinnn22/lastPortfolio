@@ -1,0 +1,280 @@
+body {
+    background-color: #262626;
+    font-family: Arial, sans-serif;
+}
+
+.assignments {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.head h1 {
+    font-size: 2.6rem;
+    color: white;
+    margin: 20px;
+}
+
+.head span {
+    color: #ff004f;
+    text-shadow: -1px -1px 10px #ff004f;
+}
+
+.head p {
+    font-size: 1.2rem;
+    width: 550px;
+    color: #ccc;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.a-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.a-card {
+    width: 280px;
+    height: 280px;
+    background-color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+}
+
+.a-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.a-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.a-card-head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 38, 38, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.a-card:hover .a-card-head {
+    transform: translateY(0);
+}
+
+.a-card-head h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff004f;
+    text-shadow: 0 0 10px #ff004f;
+}
+
+.a-card-head p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.4;
+    margin: 10px 0 0;
+}
+
+.a-card-head .links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.a-card-head .links a img {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .projects {
+        padding: 60px 30px;
+    }
+
+    .head h1 {
+        font-size: 2.4rem;
+    }
+
+    .head p {
+        font-size: 1.15rem;
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .a-cards {
+        gap: 35px;
+    }
+
+    .a-card {
+        width: 270px;
+        height: 270px;
+    }
+
+    .a-card-head h1 {
+        font-size: 1.4rem;
+    }
+
+    .a-card-head p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projects {
+        padding: 45px 20px;
+    }
+
+    .head h1 {
+        font-size: 2.3rem;
+    }
+
+    .head p {
+        font-size: 1.1rem;
+        width: 90%;
+        max-width: 520px;
+    }
+
+    .a-cards {
+        gap: 28px;
+    }
+
+    .a-card {
+        width: 260px;
+        height: 260px;
+    }
+
+    .a-card-head h1 {
+        font-size: 1.4rem;
+    }
+
+    .a-card-head p {
+        font-size: 0.98rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        padding: 40px 15px;
+    }
+
+    .head h1 {
+        font-size: 2.2rem;
+    }
+
+    .head p {
+        font-size: 1.1rem;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .a-cards {
+        gap: 25px;
+    }
+
+    .a-card {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .projects {
+        padding: 30px 15px;
+    }
+
+    .head h1 {
+        font-size: 1.8rem;
+        margin: 15px;
+    }
+
+    .head p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .a-cards {
+        gap: 20px;
+    }
+
+    .a-card {
+        width: 100%;
+        height: 250px;
+        max-width: 350px;
+    }
+
+    .a-card-head h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .head h1 {
+        font-size: 1.6rem;
+        margin: 10px;
+    }
+
+    .a-card {
+        height: 230px;
+    }
+
+    .a-card-head {
+        padding: 15px;
+    }
+
+    .a-card-head p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .projects {
+        padding: 25px 10px;
+    }
+
+    .head h1 {
+        font-size: 1.5rem;
+    }
+
+    .head p {
+        font-size: 0.9rem;
+    }
+
+    .a-card {
+        height: 200px;
+    }
+
+    .a-card-head h1 {
+        font-size: 1.2rem;
+    }
+
+    .a-card-head p {
+        font-size: 0.85rem;
+        margin-top: 8px;
+    }
+}
