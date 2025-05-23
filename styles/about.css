@@ -21,9 +21,9 @@
 
 .slide {
     width: 100vw;
-    height: 100vh;
+    height: 33vh;
     flex-shrink: 0;
-    background-image: url("../images/slide4.jpeg.jpg");
+    background-image: url("../images/welcme image.png");
     background-size: cover;
     background-position: center;
 }
